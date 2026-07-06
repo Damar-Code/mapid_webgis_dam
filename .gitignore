@@ -1,0 +1,32 @@
+# Debug and Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Local environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.json
+
+# Build outputs and caches
+dist/
+build/
+.cache/
+.parcel-cache/
+.eslintcache
+*.tsbuildinfo
+
+# Testing and coverage
+coverage/
+.nyc_output/
+
+# Operating system files (Optional but recommended)
+.DS_Store
+Thumbs.db
+
+dam.config
